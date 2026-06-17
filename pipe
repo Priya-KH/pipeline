@@ -4,7 +4,7 @@ agent any
 stages {
 stage('Checkout') { steps {
 // Check out code from Git repository
-git url: 'https://github.com/Priya-KH/your-maven- project.git', branch: 'main'
+git url: 'https://github.com/Priya-KH/pipeline.git', branch: 'main'
 }
 }
 stage('Build') { steps {
